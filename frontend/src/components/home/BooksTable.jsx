@@ -38,13 +38,13 @@ const BooksTable = ({books}) => {
                 </td>
                 <td className="border border-slate-700 rounded-md text-center">
                   <div className="flex justify-center gap-x-4">
-                    <Link to={`/Allhamdulillah-/books/details/${book._id}`}>
+                    <Link to={`/Bookstore/books/details/${book._id}`}>
                       <BsInfoCircle className="text-2xl text-green-800" />
                     </Link>
-                    <Link to={`/Allhamdulillah-/books/edit/${book._id}`}>
+                    <Link to={`/Bookstore/books/edit/${book._id}`}>
                       <AiOutlineEdit className="text-2l text-yellow-600" />
                     </Link>
-                    <Link to={`/Allhamdulillah-/books/delete/${book._id}`}>
+                    <Link to={`/Bookstore/books/delete/${book._id}`}>
                       <MdOutlineDelete className="text2xl text-red-600" />
                     </Link>
                   </div>

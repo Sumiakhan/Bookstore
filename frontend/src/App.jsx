@@ -10,12 +10,12 @@ import ShowBooks from "./pages/ShowBooks";
 
 const App = () => {
   return (
-    <Routes basename="/Allhamdulillah-/books/">
-      <Route path='/Allhamdulillah-/' element={<Home />}></Route>
-      <Route path='/Allhamdulillah-/books/create' element={<CreateBook/>}></Route> 
-      <Route path='/Allhamdulillah-/books/edit/:id' element={<EditBook/>}></Route>
-       <Route path='/Allhamdulillah-/books/details/:id' element={<ShowBooks/>}></Route>
-      <Route path='/Allhamdulillah-/books/delete/:id' element={<DeleteBook/>}></Route> 
+    <Routes basename="/Bookstore/books/">
+      <Route path='/Bookstore/' element={<Home />}></Route>
+      <Route path='/Bookstore/books/create' element={<CreateBook/>}></Route> 
+      <Route path='/Bookstore/books/edit/:id' element={<EditBook/>}></Route>
+       <Route path='/Bookstore/books/details/:id' element={<ShowBooks/>}></Route>
+      <Route path='/Bookstore/books/delete/:id' element={<DeleteBook/>}></Route> 
     </Routes>
   );
 };
